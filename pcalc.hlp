@@ -1,0 +1,36 @@
+{smcl}
+{* 10jul2015}{...}
+{hline}
+help for {hi:pcalc} {right:manual:  {hi:[R] none}}
+{right:dialog:  {hi: none}    }
+{hline}
+
+{title:Syntax}
+   
+{p 4 4 2}{cmd:pcalc} b se df [dec] {p_end}
+
+{p 4 4 2}Where b is the parameter estimate {p_end}
+{p 10 4 2}se is the standard error of the parameter estimate {p_end}
+{p 10 4 2}df is the degrees of freedom {p_end}
+{p 10 4 2}dec is the number of decimals for the confidence interval limits{p_end}
+
+{title:Description}
+
+{p 4 4 2}{cmd:pcalc} calculates, and returns in r(), p-values and 95% confidence 
+interval limits from a parameter estimate, its standard error and the degrees of
+freedom.{p_end}
+
+{title:Example}
+
+{p 4 4 2}{cmd:pcalc} 1.2 0.6 15 [1] {p_end}
+
+{title:Author}
+
+{p 4 4 2}
+Jonas Ranstam PhD {break}
+Mdas AB Rotfruktsgatan 12B, Ystad, Sweden, {break}
+http://www.ranstam.se, jonas.ranstam@gmail.com{p_end}
+
+
+
+
